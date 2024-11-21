@@ -1,0 +1,26 @@
+/* Footer */
+.app-footer {
+    background: linear-gradient(to right, #ff8c8c, #ff6f61);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120px;
+  }
+  
+  .footer-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+  }

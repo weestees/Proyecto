@@ -1,0 +1,62 @@
+.app-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra el contenido verticalmente */
+    padding: 20px;
+    min-height: calc(100vh - 80px); /* Ajusta la altura para ocupar toda la pantalla menos el header */
+    box-sizing: border-box;
+  }
+  
+  /* Título */
+  h2 {
+    color: #FF6F61;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Menú de opciones */
+  .menu-options {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    gap: 30px;
+  }
+  
+  .menu-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Botón del menú */
+  .menu-button {
+    width: 100%;
+    max-width: 180px;
+    padding: 25px;
+    border: 3px solid #FF6F61;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #FF6F61;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #FF6F61;
+    color: #ffffff;
+  }
+  
+  /* Estilo del texto en el botón */
+  .menu-button span {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
