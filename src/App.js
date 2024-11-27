@@ -1,21 +1,19 @@
-import Menu from './Menu';
-import Info from './Info';
-import Payment from './Payment';
-import Contact from './Contact';
+
+import Info from './VistaDistribuidor/Info';
+
 import Header  from './componentes/Header';
 import Foother from './componentes/Foother';
-import VendorTable from './VendedorTable';
-import Analisis from './Analisis';
-import CustomerDetails from './CustomerDetails';
+
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Header />
-      <CustomerDetails />
+      <Header/>
+      <Info/>
+
     </div>
   );
-}
+} 
 
 export default App;
