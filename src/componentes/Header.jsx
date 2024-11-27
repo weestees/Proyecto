@@ -4,7 +4,9 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="app-header">
-      <img src="" alt="logo" className="app-logo" />
+      <div className="logo-container">
+        <img src="./img/logo.png" alt="logo" className="app-logo" /> {/* Ruta actualizada */}
+      </div>
       <nav className="app-nav">
         <ul>
           <li><a href="#home">Home</a></li>
@@ -13,7 +15,7 @@ const Header = () => {
           <li><a href="#messages">Mensajes</a></li>
         </ul>
         <div className="user-icon">
-          <img src="https://via.placeholder.com/30" alt="user" />
+          <img src="./img/user.png" alt="user" /> {/* Ruta actualizada */}
         </div>
       </nav>
     </header>

@@ -1,94 +1,99 @@
 /* Header */
 .app-header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    background-color: #ffffff;
-    color: #000000;
-    border-bottom: 4px solid #FF6F61;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    height: 60px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Contenedor principal */
-  .app-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 80px auto; /* Para dejar espacio para el header */
-    padding: 0 20px;
-  }
-  
-  /* Logo y nombre de la app */
-  .logo-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .app-logo {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .app-name {
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 10px;
-  }
-  
-  /* Navegación */
-  .app-nav {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .app-nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .app-nav ul li {
-    margin: 0 15px;
-  }
-  
-  .app-nav a {
-    color: #000000;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-  }
-  
-  .app-nav a:hover {
-    background-color: #ff8c8c;
-    color: #ffffff;
-  }
-  
-  /* Botón activo */
-  .app-nav a.active {
-    background-color: #FF6F61;
-    color: #ffffff;
-    border-radius: 12px;
-  }
-  
-  /* Icono de usuario */
-  .user-icon {
-    display: flex;
-    align-items: center;
-  }
-  
-  .user-icon img {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    border: 2px solid #FF6F61;
-  }
+  width: 100vw;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border-bottom: 4px solid #FF6F61;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor principal */
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/* Logo y nombre de la app */
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Alinear el logo hacia la izquierda */
+}
+
+.app-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.app-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Navegación */
+.app-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Empujar la navegación hacia la derecha */
+}
+
+.app-nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app-nav ul li {
+  margin: 0 15px; /* Espaciado uniforme entre los enlaces */
+}
+
+.app-nav a {
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.app-nav a:hover {
+  background-color: #ff8c8c;
+  color: #ffffff;
+}
+
+/* Botón activo */
+.app-nav a.active {
+  background-color: #FF6F61;
+  color: #ffffff;
+  border-radius: 12px;
+}
+
+/* Icono de usuario */
+.user-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Espaciado del menú */
+}
+
+.user-icon img {
+  border-radius: 50%; /* Borde circular */
+  width: 30px;        /* Tamaño de la imagen */
+  height: 30px;       /* Tamaño de la imagen */
+  border: 2px solid #FF6F61; /* Borde naranja */
+  object-fit: cover;  /* Asegura que la imagen se ajuste sin deformarse */
+  display: block;     /* Asegura que no esté colapsada */
+}
+
