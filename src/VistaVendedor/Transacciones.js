@@ -2,10 +2,10 @@
 import './Transacciones.css';
 // import logo from './flama.png';
 // import icono from './iconoIngresar.png';
-import PaginaBarra from './Componentes/PaginaBarra';
-import BarraBusqueda from './Componentes/BarraBusqueda';
-import TablaPedidos from './Componentes/TablaPedidos';
-import Header from './Componentes/Header';
+import PaginaBarra from '../componentes/PaginaBarra';
+import BarraBusqueda from '../componentes/BarraBusqueda';
+import TablaPedidos from '../componentes/TablaPedidos';
+import Header from '../componentes/Header';
 
 function App() {
   return (

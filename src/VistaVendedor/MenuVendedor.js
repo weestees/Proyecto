@@ -1,6 +1,6 @@
 import React from 'react';
-import './Menu.css';
-import './App.css';
+import './MenuVendedor.css';
+
 
 function App() {
   return (

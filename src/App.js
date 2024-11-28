@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import Analisis from './VistaDistribuidor/MenuDistribuidor';
+import Analisis from './VistaVendedor/Transacciones';
 
 function App() {
   return (
