@@ -1,0 +1,77 @@
+/* Estilos para ItemMenu.jsx */
+.menu-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 3px solid tomato;
+  }
+  
+  .menu-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-links a {
+    color: #180707;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 5px 10px; /* Añadir padding para un mejor bordeado */
+    border-radius: 8px; /* Añadir borde redondeado */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+  }
+  
+  .menu-links a:hover {
+    background-color: #ff8c8c;
+    color: #ffffff;
+    text-decoration: none; /* Eliminar subrayado */
+    border-radius: 8px; /* Mantener borde redondeado */
+  }
+  
+  .menu-perfil-icono {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: none;   
+    border: none; 
+  }
+/* Chat desplegable */
+.chat-desplegable {
+    position: absolute;
+    top: 60px; /* Justo debajo del menú */
+    right: 20px; /* Alineado al lado derecho */
+    width: 300px;
+    max-height: 400px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  /* Estilo para cada mensaje */
+  .mensaje-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .mensaje-item h5 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .mensaje-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./ItemMenu.css"; // Importa el archivo de estilos
 import perfilIcono from "../img/perfil.png"; // Importa la imagen de perfil
 
 class ItemMenu extends Component {
