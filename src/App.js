@@ -1,12 +1,12 @@
 
 import React from 'react';
-import Perfil  from './Vista/Perfil';
+import SobreNosotros  from './Vista/SobreNosotros';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Perfil/>
+      <SobreNosotros/>
       
 
     </div>

@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
 import './SobreNosotros.css';
-import logo from './flama.png';
+import logo from '../img/flama.png';
 // import icono from './iconoIngresar.png';
-import Seccion from './Componentes/Seccion';
-import Header from './Componentes/Header';
+import Seccion from '../componentes/Seccion';
+import ItemMenu from '../componentes/ItemMenu';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <ItemMenu/>
       <div className="contenido-principal">
         <Seccion logo={logo} />
       </div>

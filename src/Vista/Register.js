@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import './Register.css';
 import React from "react";
-import ItemUsuario from './componentes/ItemUsuario';
+import ItemUsuario from '../componentes/ItemUsuario';
 
 class App extends React.Component {
   render() {

@@ -4,11 +4,11 @@ const Seccion = ({ logo }) => {
   return (
     <div className="seccion-sobre-nosotros">
       <div className="imagen-equipo">
-        <img src={require('../equipo.png')} alt="Equipo" />
+        <img src={require('../img/equipo.png')} alt="Equipo" />
       </div>
       <div className="texto-sobre-nosotros">
         <div className="compania-name">
-          <img src={logo} alt="Logo1" className="logo1" />
+          <img src={logo} alt="logo1" className="logo1" />
           <h2>COMPANY NAME</h2>
         </div>
         <div className="descripcion">
