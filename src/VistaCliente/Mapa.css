@@ -1,0 +1,261 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.menu-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.menu-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-links a {
+  color: #180707;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.menu-links a:hover {
+  text-decoration: underline;
+}
+
+.menu-perfil-icono {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Footer */
+.app-footer {
+  background: linear-gradient(to right, #ff8c8c, #ff6f61);
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 120px;
+}
+
+.footer-item img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 8px;
+}
+
+.pago-contenedor {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.historial-transacciones,
+.transacciones-recientes {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.circulos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.circulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  background: linear-gradient(45deg, #ff6347, #ff4500); /* Difuminado tomate */
+  color: white;
+  box-shadow: 0 4px 8px rgba(255, 69, 0, 0.3); /* Efecto de sombra */
+}
+
+
+.circulo.grande {
+  width: 110px;
+  height: 110px;
+}
+
+.circulo.pequeno {
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
+}
+
+.circulo h3 {
+  margin: 5px 0;
+}
+
+.circulos-fila {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px;
+  background: linear-gradient(45deg, #ff6347, #ff4500); /* Difuminado tomate */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 69, 0, 0.3); /* Efecto de sombra */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.total h3 {
+  color: white;
+  margin: 5px 0;
+}
+
+.lista-transacciones li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  gap: 10px; /* Espaciado entre elementos */
+}
+
+.icono-transaccion {
+  width: 40px;
+  height: 40px;
+  object-fit: contain; /* Ajusta la imagen al contenedor */
+  margin-right: 10px; /* Espaciado derecho */
+} 
+
+.lista-transacciones li div {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.transacciones-recientes .lista-transacciones {
+  list-style: none;
+  padding: 0;
+}
+
+.transacciones-recientes .lista-transacciones li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.transacciones-recientes .lista-transacciones li div {
+  display: flex;
+  flex-direction: column;
+}
+
+.transacciones-recientes .valor {
+  font-size: 18px;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.transacciones-recientes .estado {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.transacciones-recientes .estado.successful {
+  color: white;
+  background: #4caf50;
+}
+
+.transacciones-recientes .estado.failed {
+  color: white;
+  background: #f44336;
+}
+
+.transacciones-recientes .estado.in-progress {
+  color: white;
+  background: #ff9800;
+}

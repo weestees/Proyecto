@@ -1,0 +1,46 @@
+.inventario-lista {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #FF6600;
+  }
+  
+  .busqueda-input {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .tabla-inventario {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla-inventario th,
+  .tabla-inventario td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabla-inventario th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .disponibilidad-en-stock {
+    color: green;
+  }
+  
+  .disponibilidad-agotado {
+    color: red;
+  }
+  
+  .disponibilidad-bajo-stock {
+    color: orange;
+  }
+  

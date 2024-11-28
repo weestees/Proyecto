@@ -1,0 +1,70 @@
+.fondo-compra {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .breadcrumb {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+   
+  .contenedor-principal {
+    display: flex;
+    gap: 20px;
+    height: calc(100vh - 120px);
+  }
+  
+  .informacion-seccion {
+    flex: 1;    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .mapa-cuadro {
+    flex: 2; 
+    height: 100%;
+    width: 100%;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filtro,
+  .informacion-vendedor {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .vendedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .vendedor-imagen {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+  }
+  
+  .vendedor-nombre {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .vendedor-ranking {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .vendedor-detalles {
+    text-align: left;
+  }
