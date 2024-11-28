@@ -1,12 +1,12 @@
 
 import React from 'react';
-import Shop  from './VistaCliente/Shop';
 import './App.css';
+import Analisis from './VistaDistribuidor/MenuDistribuidor';
 
 function App() {
   return (
     <div>
-      <Shop/>
+      <Analisis/>
       
 
     </div>

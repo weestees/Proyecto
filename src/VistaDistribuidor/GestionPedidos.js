@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './GestionPedidos.css';
-import Header from './Componentes/Header';
-import MenuPestanas from './Componentes/MenuPestanas';
-import PaginaBarra from './Componentes/PaginaBarra';
-import BarraBusqueda from './Componentes/BarraBusqueda';
-import TablaPedidos from './Componentes/TablaPedidos';
+import Header from '../componentes/Header';
+import MenuPestanas from '../componentes/MenuPestanas';
+import PaginaBarra from '../componentes/PaginaBarra';
+import BarraBusqueda from '../componentes/BarraBusqueda';
+import TablaPedidos from '../componentes/TablaPedidos';
 
 function App() {
   return (
