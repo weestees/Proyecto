@@ -1,0 +1,258 @@
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ff7f50;
+  margin-bottom: 5px;
+}
+
+.contenedor-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo{
+  width: 70px;
+  margin-right: 0%;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.contenedor-informativo {
+  display: flex;
+  align-items: center;
+}
+
+
+.header nav a {
+  margin: 0 10px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  padding: 5px 1px;
+}
+
+.header nav a:hover {
+  background-color: #ff7f50;
+  
+}
+
+.profile-icon {
+  font-size: 24px;
+}
+
+/* Contenedor principal */
+.contenido-principal {
+  padding: 8px;
+  font-family: Arial, sans-serif;
+  position: relative; 
+  background-image: url('fondo_inferior.png'); 
+  background-size: 100% 1.5cm; 
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  
+}
+
+.boton-atras {
+  position: absolute; 
+  right: 10px; 
+  top: 10px;
+  color: #ff7f50; 
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.boton-atras:hover {
+  color: #d75238; 
+  font-weight: bold;
+}
+
+
+.gestion-pedidos {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+
+}
+
+.gestion-pedidos h2 {
+  font-size: 1.8rem;
+  color: #E12427;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.menu-pestanas {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.menu-pestanas .pestana {
+  text-decoration: none;
+  border-bottom: 2px solid #C1C4CA;
+  color: #333;
+  font-size: 1rem;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-pestanas .pestana:hover {
+  border-bottom: 2px solid #ff7f50;
+  color: #ff7f50;
+}
+
+.menu-pestanas .activa {
+  border-bottom: 2px solid #ff7f50;
+  color: #ff7f50;
+}
+
+.barra-busqueda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-buscar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.boton-filtrar {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton-filtrar:hover {
+  background-color: #ff4500;
+}
+
+.tabla-pedidos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.tabla-pedidos th, .tabla-pedidos td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-pedidos th {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.tabla-pedidos tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.numero-pedido-id {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.nombre-cliente{
+  cursor: pointer;
+}
+.nombre-cliente:hover {
+  text-decoration: underline;
+  color: #ff7f50;
+}
+
+.estado {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.estado.pendiente {
+  background-color: #ffcc00;
+  cursor: pointer;
+}
+
+.estado.confirmado {
+  background-color: #4caf50;
+  cursor: pointer;
+}
+
+.estado.enviado {
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+
+.seccion-paginacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mostrar-registros {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mostrar-registros label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.select-registros {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.paginacion {
+  display: flex;
+  gap: 5px;
+}
+
+.boton-paginacion {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-paginacion:hover {
+  background-color: #ff7f50;
+  color: white;
+}
+
+.boton-paginacion.activo {
+  background-color: #ff7f50;
+  color: white;
+  font-weight: bold;
+}

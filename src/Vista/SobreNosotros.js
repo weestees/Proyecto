@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+import './SobreNosotros.css';
 import logo from './flama.png';
 // import icono from './iconoIngresar.png';
 import Seccion from './Componentes/Seccion';
