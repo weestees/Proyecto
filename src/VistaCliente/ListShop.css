@@ -76,7 +76,7 @@ body {
 
 
 .fondo-compra {
-  background-image: url('./img/fondo_compra.jpg');
+  background-image: url('../img/fondo_compra.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,7 +86,7 @@ body {
 }
 
 .fondo-compra {
-  background-image: url('./img/fondo_compra.jpg');
+  background-image: url('../img/fondo_compra.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

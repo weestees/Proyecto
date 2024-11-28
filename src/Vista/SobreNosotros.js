@@ -3,7 +3,7 @@ import './SobreNosotros.css';
 import logo from '../img/flama.png';
 // import icono from './iconoIngresar.png';
 import Seccion from '../componentes/Seccion';
-import ItemMenu from '../componentes/ItemMenu';
+import ItemMenu from '../componentes/ItemMenu'; //importar dentro del componente el css correspondiente a ItemMenu
 
 function App() {
   return (

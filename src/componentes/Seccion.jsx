@@ -10,7 +10,7 @@ const Seccion = ({ logo }) => {
         <div className="compania-name">
           <img src={logo} alt="logo1" className="logo1" />
           <h2>COMPANY NAME</h2>
-        </div>
+        </div>  
         <div className="descripcion">
           <p>
             En COMPANY NAME, creemos en la comodidad y transparencia para nuestros usuarios.

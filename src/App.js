@@ -1,12 +1,12 @@
 
 import React from 'react';
-import SobreNosotros  from './Vista/SobreNosotros';
+import Shop  from './VistaCliente/Shop';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <SobreNosotros/>
+      <Shop/>
       
 
     </div>

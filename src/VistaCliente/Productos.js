@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './Productos.css';
 import React from 'react';
-import logo from './flama.png';
-import icono from './iconoIngresar.png';
+import logo from '../img/flama.png';
+import icono from '../img/iconoIngresar.png';
 
 class App extends React.Component {
   render() {

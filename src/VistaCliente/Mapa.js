@@ -1,12 +1,12 @@
 import './Mapa.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ItemMenu from './componentes/ItemMenu';
-import EstadoEntrega from './componentes/EstadoEntrega';
-import Pago from './componentes/Pago';
-import VendedoresMap from './componentes/Vendedores_map';
-import InventarioLista from './componentes/InventarioLista';
-import DetalleProducto from './componentes/DetalleProducto';
+import ItemMenu from '../componentes/ItemMenu';
+import EstadoEntrega from '../componentes/EstadoEntrega';
+import Pago from '../componentes/Pago';
+import VendedoresMap from '../componentes/Vendedores_map';
+import InventarioLista from '../componentes/InventarioLista';
+import DetalleProducto from '../componentes/DetalleProducto';
 
 class App extends React.Component {
   render() {

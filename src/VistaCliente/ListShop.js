@@ -1,7 +1,7 @@
 import './ListShop.css';
 import React from "react";
-import ItemMenu from './componentes/ItemMenu';
-import ProductoGas from './componentes/ProductoGas';
+import ItemMenu from '../componentes/ItemMenu';
+import ProductoGas from '../componentes/ProductoGas';
 //import fondoCompra from './img/fondo_compra.jpg';
 
 class App extends React.Component {
@@ -95,10 +95,10 @@ class App extends React.Component {
     super(props);
     this.state = {
       productos: [
-        { nombre: "Gas Doméstico 10kg", precio: 30, tipo: "domestico", imagen: require("./img/domestico10kg.png") },
-        { nombre: "Gas Industrial 20kg", precio: 50, tipo: "industrial", imagen: require("./img/industrial20kg.jpg") },
-        { nombre: "Gas Doméstico 5kg", precio: 20, tipo: "domestico", imagen: require("./img/domestico5kg.jpg") },
-        { nombre: "Gas Industrial 50kg", precio: 100, tipo: "industrial", imagen: require("./img/industrial50kg.jpeg") }
+        { nombre: "Gas Doméstico 10kg", precio: 30, tipo: "domestico", imagen: require("../img/domestico10kg.png") },
+        { nombre: "Gas Industrial 20kg", precio: 50, tipo: "industrial", imagen: require("../img/industrial20kg.jpg") },
+        { nombre: "Gas Doméstico 5kg", precio: 20, tipo: "domestico", imagen: require("../img/domestico5kg.jpg") },
+        { nombre: "Gas Industrial 50kg", precio: 100, tipo: "industrial", imagen: require("../img/industrial50kg.jpeg") }
       ],
       filtro: {
         domestico: true,
