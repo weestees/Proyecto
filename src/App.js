@@ -1,16 +1,13 @@
 
-import Info from './VistaDistribuidor/Info';
-
-import Header  from './componentes/Header';
-import Foother from './componentes/Foother';
-
+import React from 'react';
+import Perfil  from './Vista/Perfil';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Info/>
+      <Perfil/>
+      
 
     </div>
   );
