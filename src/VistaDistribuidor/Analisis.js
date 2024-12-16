@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Grid, Card, CardContent, Typography, Table, TableBody, TableCell, TableHead, TableRow } from "@mui/material";
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
+import axios from "axios";
 
 const salesData = [
   { month: "Jan", sales: 30000, purchases: 20000 },

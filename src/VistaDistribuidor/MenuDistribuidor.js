@@ -4,7 +4,6 @@ import './MenuDistribuidor.css';
 function App() {
   return (
     <div>
-
       <div className="main-container">
         <main className="app-main">
           <h2>Menú de Opciones</h2>

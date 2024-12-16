@@ -1,12 +1,12 @@
 import './HistorialTransacciones.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ItemMenu from '../componentes/ItemMenu';
-import EstadoEntrega from '../componentes/EstadoEntrega';
-import Pago from '../componentes/Pago';
-import VendedoresMap from '../componentes/Vendedores_map';
-import InventarioLista from '../componentes/InventarioLista';
-import DetalleProducto from '../componentes/DetalleProducto';
+import ItemMenu from '../Components/ItemMenu';
+import EstadoEntrega from '../Components/EstadoEntrega';
+import Pago from '../Components/Pago';
+import VendedoresMap from '../Components/Vendedores_map';
+import InventarioLista from '../Components/InventarioLista';
+import DetalleProducto from '../Components/DetalleProducto';
 
 class App extends React.Component {
   render() {

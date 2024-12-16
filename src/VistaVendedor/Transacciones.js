@@ -2,15 +2,13 @@
 import './Transacciones.css';
 // import logo from './flama.png';
 // import icono from './iconoIngresar.png';
-import PaginaBarra from '../componentes/PaginaBarra';
-import BarraBusqueda from '../componentes/BarraBusqueda';
-import TablaPedidos from '../componentes/TablaPedidos';
-import Header from '../componentes/Header';
+import PaginaBarra from '../Components/PaginaBarra';
+import BarraBusqueda from '../Components/BarraBusqueda';
+import TablaPedidos from '../Components/TablaPedidos';
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <div className="contenido-principal">
         <button className="boton-atras">&lt; Atrás</button>
         <div className="gestion-pedidos">

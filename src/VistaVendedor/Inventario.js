@@ -2,16 +2,14 @@
 import './Inventario.css';
 //import logo from './flama.png';
 //import icono from './iconoIngresar.png';
-import Header from './Componentes/Header';
-import PaginaBarra from './Componentes/PaginaBarra';
-import BarraBusqueda from './Componentes/BarraBusqueda';
-import TablaPedidos from './Componentes/TablaPedido';
-import Estadisticas from './Componentes/Estadisticias';
+import PaginaBarra from '../Components/PaginaBarra';
+import BarraBusqueda from '../Components/BarraBusqueda';
+import TablaPedidos from '../Components/TablaPedidos';
+import Estadisticas from '../Components/Estadisticias';
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <div className="contenido-principal">
         <button className="boton-atras">&lt; Atrás</button>
         <div className="gestion-pedidos">

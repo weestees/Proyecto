@@ -59,7 +59,7 @@
   padding: 8px;
   font-family: Arial, sans-serif;
   position: relative; 
-  background-image: url('fondo_inferior.png'); 
+  background-image: url('../img/fondo_inferior.png'); 
   background-size: 100% 1.5cm; 
   background-position: bottom center;
   background-repeat: no-repeat;

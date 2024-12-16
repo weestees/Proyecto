@@ -53,7 +53,7 @@ class EstadoEntrega extends React.Component {
         </div>
       </div>
     );
-  }
+  }r
 }
 
 export default EstadoEntrega;

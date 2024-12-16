@@ -17,6 +17,7 @@ const TablaVendedores = () => {
     ingreso: new Date().toLocaleDateString("en-GB"),
     numero: "",
     email: "",
+    
     estado: "Activo",
     ubicacion: "-",
   });

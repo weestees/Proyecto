@@ -3,10 +3,10 @@ import './Shop.css';
 import React from "react";
 import logo from '../img/flama.png';
 import icono from '../img/iconoIngresar.png';
-import Header from '../componentes/Header';
-import ContenedorShop from '../componentes/ContenedorShop';
-import InformacionProducto from '../componentes/InformacionProducto';
-import ProductoDetalle from '../componentes/ProductoDetalle';
+import Header from '../Components/Header';
+import ContenedorShop from '../Components/ContenedorShop';
+import InformacionProducto from '../Components/InformacionProducto';
+import ProductoDetalle from '../Components/ProductoDetalle';
 
 function App() {
   return (

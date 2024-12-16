@@ -1,7 +1,7 @@
 import './ListShop.css';
 import React from "react";
-import ItemMenu from '../componentes/ItemMenu';
-import ProductoGas from '../componentes/ProductoGas';
+import ItemMenu from '../Components/ItemMenu';
+import ProductoGas from '../Components/ProductoGas';
 //import fondoCompra from './img/fondo_compra.jpg';
 
 class App extends React.Component {

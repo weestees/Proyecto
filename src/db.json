@@ -1,0 +1,68 @@
+{
+    "pedidos":[
+        { "id": "#6548", "creado": "2 min atras", "cliente": "Joseph Wheeler", "total": "$654", "ganancia": "$154", "estado": "Pendiente" },
+        { "id": "#6549", "creado": "5 min atras", "cliente": "Emily Smith", "total": "$780", "ganancia": "$200", "estado": "Confirmado" },
+        { "id": "#6550", "creado": "10 min atras", "cliente": "John Doe", "total": "$920", "ganancia": "$250", "estado": "Enviado" },
+        { "id": "#6548", "creado": "2 min atras", "cliente": "Joseph Wheeler", "total": "$654", "ganancia": "$154", "estado": "Pendiente" },
+        { "id": "#6549", "creado": "5 min atras", "cliente": "Emily Smith", "total": "$780", "ganancia": "$200", "estado": "Confirmado" },
+        { "id": "#6550", "creado": "10 min atras", "cliente": "John Doe", "total": "$920", "ganancia": "$250", "estado": "Enviado" },
+        { "id": "#6548", "creado": "2 min atras", "cliente": "Joseph Wheeler", "total": "$654", "ganancia": "$154", "estado": "Pendiente" },
+        { "id": "#6549", "creado": "5 min atras", "cliente": "Emily Smith", "total": "$780", "ganancia": "$200", "estado": "Confirmado" },
+        { "id": "#6550", "creado": "10 min atras", "cliente": "John Doe", "total": "$920", "ganancia": "$250", "estado": "Enviado" },
+        { "id": "#6548", "creado": "2 min atras", "cliente": "Joseph Wheeler", "total": "$654", "ganancia": "$154", "estado": "Pendiente" },
+        { "id": "#6549", "creado": "5 min atras", "cliente": "Emily Smith", "total": "$780", "ganancia": "$200", "estado": "Confirmado" },
+        { "id": "#6550", "creado": "10 min atras", "cliente": "John Doe", "total": "$920", "ganancia": "$250", "estado": "Enviado" }
+      ],
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Producto 1",
+          "descripcion": "Descripción del producto 1",
+          "precio": 100,
+          "stock": 50
+        },
+        {
+          "id": 2,
+          "nombre": "Producto 2",
+          "descripcion": "Descripción del producto 2",
+          "precio": 200,
+          "stock": 30
+        },
+        {
+          "id": 3,
+          "nombre": "Producto 3",
+          "descripcion": "Descripción del producto 3",
+          "precio": 300,
+          "stock": 20
+        },
+        {
+          "id": 4,
+          "nombre": "Producto 4",
+          "descripcion": "Descripción del producto 4",
+          "precio": 400,
+          "stock": 10
+        }
+      ],
+      "salesData" : [
+      { "month": "Jan", "pedidos": 2000 },
+      { "month": "Feb", "pedidos": 4000 },
+      { "month": "Mar", "pedidos": 3000 }
+    ],
+    "orderDAta" :[
+      { "month": "Jan", "pedidos": 2000 },
+      { "month": "Feb", "pedidos": 4000 },
+      { "month": "Mar", "pedidos": 3000 }
+    ],
+    "productos2": [
+      { "name": "Tanque21", "cantidad": 30, "restante": 12, "precio": "$3.50" }
+    ],
+    "stockBajo" : [
+      { "name": "Tanque21", "detalle": "GLP en cilindros industriales" }
+    ],
+    "vendedores" : [
+      { "nombre": "Richard Martin", "ingreso": "11/12/22", "numero": "7867745566", "email": "richard@gmail.com", "estado": "Activo", "ubicacion": "Ubicación Actual" },
+    { "nombre": "Tom Homan", "ingreso": "11/12/22", "numero": "9657545388", "email": "tomhoman@gmail.com", "estado": "Activo", "ubicacion": "Ubicación Actual" },
+    { "nombre": "Veandir", "ingreso": "11/12/22", "numero": "9657545566", "email": "veandir@gmail.com", "estado": "Inactivo", "ubicacion": "-" },
+    { "nombre": "Charin", "ingreso": "11/12/22", "numero": "9657545388", "email": "charin@gmail.com", "estado": "Activo", "ubicacion": "-" }  
+    ]
+}

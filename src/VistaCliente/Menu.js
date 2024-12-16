@@ -3,8 +3,7 @@ import './Menu.css';
 
 function App() {
   return (
-    <div>
-
+    <div className="background-container"> {/* Nueva clase */}
       <div className="main-container">
         <main className="app-main">
           <h2>Menú de Opciones</h2>
@@ -30,9 +29,7 @@ function App() {
           </div>
         </main>
       </div>
-      </div>
-
-
+    </div>
   );
 }
 
